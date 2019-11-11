@@ -40,6 +40,7 @@ public class MyTriangle {
     }
 
     public static void main(String[] args) {
+
         MyPoint v1 = new MyPoint(4,6);
         MyPoint v2 = new MyPoint(3,5);
         MyPoint v3 = new MyPoint(8,9);

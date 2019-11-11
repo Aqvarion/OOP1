@@ -65,12 +65,14 @@ public class Book {
     }
 
     public static void main(String[] args) {
-        Author[] authors = new Author[3];
+        Author[] authors = new Author[4];
         authors[0] = new Author("Amish Tripathi","at@mail.ru",'m');
         authors[1] = new Author("Paulo Coelho","pc@mail.ru",'m');
         authors[2] = new Author("Abhijit V Banerjee","pc@mail.ru",'m');
+        authors[3] = new Author("Amish Tripathi","at@mail.ru",'m');
         Book book = new Book("Arabian Nights",authors,325.50,3);
         System.out.println(book);
         System.out.println(book.getAuthorNames()+"\n");
+        System.out.println("Author[1] is equal to author[3] ? "+authors[0].equals(authors[3]));
     }
 }
